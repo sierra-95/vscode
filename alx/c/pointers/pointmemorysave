@@ -1,0 +1,44 @@
+Pointers can be used to save space esp in 2d array/string
+eg matrix concept
+mike[2][3]
+it means;a,b,c
+         e,f,g
+	 2 columns by 3 rows
+	 Draw L
+eg of memory save
+
+char *name[3]={
+      "Adam";
+      "chris"
+      "deniel"
+      };
+      // without pointer
+
+char name [3][20]={
+        .....
+	.....
+	.....
+	};
+	diffrnce is in memory allocation
+
+	//AVOID CONFUSION
+	1D STRING DECLARATION BY POINTERS
+
+	char *mike;
+	gets(mike)
+	without pointers
+	char mike[5];
+	gets(mike)
+
+	1D ARRAY DECLARATION BY POINTERS
+
+	int mike[20]={...}
+	int *p=mike;
+	for(.....
+	{
+	   printf("%d",*p);
+	   p++
+
+	   or
+	   printf("%d",*(mike+i));
+

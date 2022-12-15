@@ -1,0 +1,24 @@
+in arrays
+int mike[5]={1,2,3,4,5,6};
+int *p=mike;
+for(....
+{
+printf("%d",*p);
+p++;
+or
+ printf("%d",*(mike+i);
+ or the normal
+  printf("%d",mike[i]); 
+
+ in strings, you can initialize pointer string directly without assigning anything
+ 
+ char *str="michael"
+ or
+ char *str;
+ gets(str);
+ puts(str);
+
+ normal string
+ char str[5];
+ gets(str);
+ puts(str);

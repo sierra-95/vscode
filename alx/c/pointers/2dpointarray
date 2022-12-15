@@ -1,0 +1,8 @@
+int i,int j;
+int *p
+int  mike[]={...};
+p=a;
+
+syntax for print
+mike[i][j] is same as *(*(mike+i)+j)
+
