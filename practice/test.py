@@ -1,5 +1,4 @@
-class user:
-    id=1
-u=user()
-user.id=98
-print(u.id)    
+#!/usr/bin/env python3
+
+a=int(input())
+b=int(input(
