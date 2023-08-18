@@ -1,0 +1,10 @@
+#head{
+    background-color:red;
+    height:70px;
+    width:100%;
+    border-bottom: ipx #CCCCCC;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    object-fit: none;
+    object-position: 20px center;
+}

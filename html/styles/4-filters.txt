@@ -1,0 +1,15 @@
+------------PSEUDO-CLASS-----------------
+When you want to target a specific state of an element, like when a user hovers over a button,
+you use a "pseudo-class."
+This is like a special state that you want to style differently. To indicate that you're targeting a pseudo-class,
+ like the hover state, you use a full colon (:) after the selector.
+So, in your case:
+
+filters alone: You're selecting an element with the ID filters and applying styles to it directly.
+No full colon needed because you're just styling the element itself.
+
+filters button: hover: You're selecting a button inside the element with the ID filters and targeting its hover state.
+You use the full colon to indicate that you're dealing with the special state of the button when it's being hovered over.
+
+Remember, the full colon (:) is a way to tell CSS that you're either selecting a pseudo-class (like hover) 
+or you're using a special property-value pair (like color: red).

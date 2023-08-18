@@ -1,0 +1,27 @@
+Container (<div id="container">): In HTML and web development, a "container" is a common term used to describe a box
+or area that holds other elements like text, images, buttons, and more.
+It's often used to group related content together. In your case, you used <div id="container"> to create a box
+that wraps around other content on your web page. 
+This is a way to keep things organized and apply styles to a specific section of your page.
+
+Filters (<section id="filters">): In HTML, a <section> tag is used to define a thematic grouping of content on a web
+page. It's typically used to represent a larger part of your content that has a common theme or purpose. 
+In your case, you used <section id="filters"> to create a section that likely contains filtering options or controls. 
+This could be used for things like searching, sorting, or refining content displayed on your webpage.
+
+Button (<button>): In HTML, the <button> element is used to create interactive buttons that users can click on.
+Buttons are often used to trigger actions, like submitting a form or performing an action on a webpage. 
+You likely used a <button> element within your <section id="filters"> to create a clickable button that users can 
+interact with.
+
+As for not using filters button, based on your description, you probably didn't use <filters button> because 
+it's not a valid HTML tag. Instead, you correctly used a <button> element within the <section id="filters"> section 
+to create a button that users can interact with.
+
+To sum it up:
+
+<div id="container">: A container is a box that holds content. You used it to group and style a section of your page.
+<section id="filters">: A section is a thematic grouping of content. You used it to organize filtering options or
+controls.
+<button>: A button is an interactive element that users can click on. You used it to create a clickable control for 
+your filtering section.
