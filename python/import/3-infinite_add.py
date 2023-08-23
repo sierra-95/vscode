@@ -1,7 +1,11 @@
-#!/usr/bin/python3
-import sys
-add=0
-if(len(sys.argv)>1):
-    for i in range(1,len(sys.argv)):
-        add+=int(sys.argv[i])
-print("{:d}".format(add))
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+if __name__ == "__main__":
+    from sys import argv
+    x=0
+    for i in range(1,len(argv)):
+        x+=int(argv[i])
+    print(x)
+        
+        
+    
