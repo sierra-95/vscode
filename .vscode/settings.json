@@ -18,10 +18,9 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "kk",
-            "database": "kcc",
-            "username": "mm",
-            "password": "look"
+            "name": "Michael",
+            "database": "world",
+            "username": "root"
         }
     ]
 }
