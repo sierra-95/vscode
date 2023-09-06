@@ -1,1 +1,1 @@
-select * from first_table;
+SHOW DATABASES;
