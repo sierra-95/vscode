@@ -1,0 +1,45 @@
+**********************************
+(1) /etc/default/haproxy
+**********************************
+Environment Variables:
+The file often defines environment variables that influence the behavior of the
+HAProxy service. These variables can control settings such as the location of 
+configuration files, startup options, and system-specific parameters.
+
+Configuration File Location: One common purpose of this file is to specify
+the location of the HAProxy configuration file (haproxy.cfg).
+By setting an environment variable like
+CONFIG=/etc/haproxy/haproxy.cfg,
+you can tell HAProxy where to find its configuration.
+
+/etc/default/haproxy might look like:
+------------------------------------------
+# Environment variables for HAProxy
+CONFIG=/etc/haproxy/haproxy.cfg
+ENABLED=1
+EXTRA_OPTS="-de -m 16"
+# Set to 1 to enable HAProxy, 0 to disable
+--------------------------------------------
+
+******************************
+(2) /etc/haproxy/haproxy.cfg
+****************************
+
+its the configuration file for haproxy
+Example:
+Configure HAproxy so that it send traffic to web-01 and web-02
+Distribute requests using a roundrobin algorithm
+Make sure that HAproxy can be managed via an init script
+----------------------------------------
+config="frontend http
+\tbind *:80
+\tmode http
+\tdefault_backend web-backend
+backend web-backend
+\tbalance roundrobin
+\tserver 117256-web-01 100.24.72.250 check
+\tserver 117256-web-02 34.229.69.39 check"
+echo -e "$config" | sudo tee -a /etc/haproxy/haproxy.cfg
+echo -e "ENABLED=1\n" | sudo tee -a /etc/default/haproxy
+sudo service haproxy restart
+----------------------------------------------------------
