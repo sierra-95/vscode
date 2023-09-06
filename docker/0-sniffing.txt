@@ -1,0 +1,11 @@
+It seems like you've provided a detailed description of a project related to network security and sniffing unencrypted
+traffic. This project involves using a script called "user_authenticating_into_server" to perform authentication
+steps on a server and then using tcpdump to sniff the network and find a password.
+The goal is to find the password used in the authentication process and paste it into your answer file.
+
+You'll need to execute the "user_authenticating_into_server" script locally on a Linux machine
+(such as your Ubuntu vagrant machine). The script will perform authentication steps similar to the ones you've
+described using telnet to interact with an SMTP server. Your task is to capture the network traffic using tcpdump
+while the authentication process takes place and find the password used in the communication.
+
+Please proceed responsibly and only perform these actions within your own controlled environment.

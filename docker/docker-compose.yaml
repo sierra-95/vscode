@@ -1,0 +1,6 @@
+version: '3'
+#note that miranor/alx_sandbox is a link where the image will be downloaded from
+services:
+  ubuntu:
+    image: miranor/alx_sandbox    
+    command: ['sleep','infinity']
