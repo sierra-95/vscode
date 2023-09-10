@@ -9,8 +9,8 @@ config="frontend http
 \tdefault_backend web-backend
 backend web-backend
 \tbalance roundrobin
-\tserver 117256-web-01 100.24.72.250 check
-\tserver 117256-web-02 34.229.69.39 check"
+\tserver 117256-web-01 3.94.185.2 check
+\tserver 117256-web-02 100.26.132.107 check"
 #\t is for tab
 #config="frontend http bind *:80 mode http default_backend web-backend
 echo -e "$config" | sudo tee -a /etc/haproxy/haproxy.cfg
