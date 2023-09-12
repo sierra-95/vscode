@@ -10,5 +10,5 @@ class Robot:
 marvin = Robot("Marvin", 1979)
 
 # Using the str() function and print() on the object
-print(str(marvin))  # Output: Name: Marvin, Build Year: 1979
+print(str(marvin))  ## Output: Name: Marvin, Build Year: 1979
 print(marvin)       # Output: Name: Marvin, Build Year: 1979
