@@ -20,6 +20,9 @@ server {
 
         server_name Holb20233m8xq2.tech www.Holb20233m8xq2.tech;
 }
-************************************************8
-sudo nginx -t                                                                                  nginx: the configuration file /etc/nginx/nginx.conf syntax is ok                                                        nginx: configuration file /etc/nginx/nginx.conf test is successful                                                      ubuntu@117256-web-01:~$ ls /etc/nginx/sites-enabled/                                                                    Holb20233m8xq2.tech  default                                          
+************************************************
+sudo nginx -t                                                                                 
+>>>nginx: the configuration file /etc/nginx/nginx.conf syntax is ok 
+>>>nginx: configuration file /etc/nginx/nginx.conf test is successful 
+           
 sudo systemctl reload nginx            
