@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#prints 1-10
+#execute ./
 i=1
 while [ $i -le 10 ]
 do

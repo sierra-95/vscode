@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#executes .py files
+
 if [ $1 ]
 then
     if [ -f $1 ] && [ -s $1 ]
