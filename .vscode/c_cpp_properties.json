@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "intelliSenseMode": "${default}",
+<<<<<<< HEAD
+            "compilerPath": "/c/WinAVR-20100110/bin/avr-gcc.exe",
+=======
+            "compilerPath": "",
+>>>>>>> a5309e5a1c9a5d43441c68462099910c5bf63ea8
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "includePath": [],
+            "compilerArgs": [
+                "-g",
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-fno-exceptions",
+                "-fno-threadsafe-statics",
+                "-pipe"
+            ]
+        }
+    ],
+    "version": 4
+}
