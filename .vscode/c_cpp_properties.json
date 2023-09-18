@@ -3,10 +3,13 @@
         {
             "name": "AVR",
             "intelliSenseMode": "${default}",
-            "compilerPath": "",
+            "compilerPath": "/c/WinAVR-20100110/bin/avr-gcc.exe",
             "cStandard": "${default}",
             "cppStandard": "${default}",
-            "includePath": [],
+            "includePath": [
+                "/c/WinAVR-20100110/lib/",
+                "/t/Programmes/Arduino/arduino-1.8.16/libraries"
+            ],
             "compilerArgs": [
                 "-g",
                 "-Os",
@@ -17,6 +20,7 @@
                 "-fno-threadsafe-statics",
                 "-pipe"
             ]
+            
         }
     ],
     "version": 4
