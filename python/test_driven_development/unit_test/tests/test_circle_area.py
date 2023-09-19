@@ -13,3 +13,5 @@ class Test_circle_area(unittest.TestCase):
     def test_non_int(self):
         self.assertRaises(TypeError,circle_areas,"name")
 
+if __name__=="__main__":
+    unittest.main()

@@ -8,14 +8,14 @@ def circle_areas(r):
                 raise ValueError
             else: 
                 return (r**2)*pi
-        else:
-           raise TypeError
+        elif type(r) in [str]:
+            raise TypeError
     except TypeError:
         print("No names allowed")
         return ("Try again")
     except ValueError:
         print("Negative numbers not allowed") 
         return ("Try again")  
-
+print(circle_areas(-2))
 
 

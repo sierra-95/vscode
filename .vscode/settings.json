@@ -32,5 +32,6 @@
     "AVR.source.libraries": [
         "/c/Users/admin/Documents/Arduino/libraries",
         "/t/Programmes/Arduino/arduino-1.8.16/libraries"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }
