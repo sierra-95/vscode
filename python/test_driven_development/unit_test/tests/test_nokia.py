@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from modules.nokia_users import Users
+from models.nokia_users import Users
 import unittest
 
 class TestNokia(unittest.TestCase):

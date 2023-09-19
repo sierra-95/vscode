@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from modules.add_numbers import add
+from models.add_numbers import add
 import unittest
 class TestAddition(unittest.TestCase):
 

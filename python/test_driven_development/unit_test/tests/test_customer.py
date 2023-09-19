@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import unittest
-from modules.customer import Customer
+from models.customer import Customer
 
 class TestCustomer(unittest.TestCase):
 
