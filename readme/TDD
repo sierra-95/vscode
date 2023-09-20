@@ -6,6 +6,7 @@ NOTE BETTER
 ***********
 Run the command on /project/
 when running the command dont add the extension.py
+To avoid errors out of nowhere , label the file as "tests" not "test"
 
 ======illustration==========
 project /models/car.py
@@ -21,7 +22,7 @@ $pwd
 /projects/
 $ls
 models
-car
+tests
 $python3 -m unittest tests.test_car
 -----<output>-------
 Ran 3 tests in 0.001s

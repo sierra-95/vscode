@@ -1,9 +1,9 @@
-sudo apt-get update
-sudo apt-get install certbot
+$sudo apt-get update
+$sudo apt-get install certbot
 
-sudo certbot certonly --standalone --email your_email@example.com -d www.holb20233m8xq2.tech
+$sudo certbot certonly --standalone --email your_email@example.com -d www.holb20233m8xq2.tech
 ========to check for exisiting certificates========
-sudo certbot certificates
+$sudo certbot certificates
 
 ==========NOTE BETTER=============
 #For Let's Encrypt, you should typically use a subdomain, not the root domain,
