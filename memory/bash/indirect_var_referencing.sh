@@ -2,4 +2,5 @@
 exist=james
 james=now
 echo ${!exist}
+#now
 

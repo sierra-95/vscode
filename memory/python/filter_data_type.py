@@ -11,15 +11,9 @@ def add_integer(a,b=98):
        else:
           raise TypeError
     except TypeError:
-     return ("a must be an integer or b must be an integer")   
-
-
-
-
+     return ("a must be an integer or b must be an integer") 
 
 print (add_integer(1,True))
-
-
 
 
 #Prototype: def add_integer(a, b=98):
