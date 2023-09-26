@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+from models.base import Base
+class BaseGeometry:
+    def integer_validator(self, var_name, value):
+        if not isinstance(value, int):
+            raise TypeError(f"{var_name} must be an integer")
+        elif value <= 0:
+            raise ValueError(f"{var_name} must be > 0")
+
+class Rectangle(Base,BaseGeometry):
+    def __init__(self, width, height, x=0, y=0, id=None):
+        super().__init__(id)
+        if self.integer_validator("height",height):
+            pass
+        if self.integer_validator("width",width):
+            pass
+        if x<0 or y<0:
+            raise ValueError(f"value must be >0")
+        self.__width=width          
+        self.__height=height
+        self.__x=x
+        self.__y=y    
+    @property
+    def width (self):
+        return self.__width
+    @property
+    def height(self):
+        return self.__height
+    @property
+    def x(self):
+        return self.__x
+    @property
+    def y(self):
+        return self.__y    
+    @width.setter  
+    def width(self,width):
+        self.integer_validator("width",width)
+        self.__width=width
+    @height.setter
+    def height_setter(self,height):
+        self.integer_validator("height",height)
+        self.__height=height
+    @x.setter
+    def x(self,x):
+        self.integer_validator("x",x)
+        self.__x=x
+    @y.setter
+    def y_setter(self,y):
+        self.integer_validator("y",y)
+        self.__y=y 
+
+    def area(self):
+        return self.__height*self.__width
+    def __str__(self):
+        return (f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}")
+    

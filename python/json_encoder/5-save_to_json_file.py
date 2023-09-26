@@ -6,4 +6,4 @@ def save_to_json_file(my_obj, filename):
             json.dump(my_obj,file)
 
         except Exception:
-            print(f"[TypeError] {my_obj} is not JSON serializable")    
+            print(f"[TypeError] {my_obj} is not JSON serializable")
