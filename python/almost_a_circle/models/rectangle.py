@@ -53,4 +53,12 @@ class Rectangle(Base,BaseGeometry):
         return self.__height*self.__width
     def __str__(self):
         return (f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}")
-    
+    def update(self,*args):
+        list=[]
+        for i in args:
+            list.append(i)
+        self.id=list[0]
+        self.__width=list[1]
+        self.__height=list[2]
+        self.__x=list[3]
+        self.__y=list[4]
