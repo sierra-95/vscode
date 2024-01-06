@@ -26,9 +26,9 @@
     "AVR.reporter.arguments": [
         "-A"
     ],
-    "AVR.source.compiler": "/c/WinAVR-20100110/bin/avr-gcc.exe",
-    "AVR.programmer.tool": "/c/WinAVR-20100110/bin/avrdude.exe",
-    "AVR.programmer.definitions": "/c/WinAVR-20100110/bin/avrdude.conf",
+    "AVR.source.compiler": "/d/software/WinAVR/bin/avr-gcc.exe",
+    "AVR.programmer.tool": "/d/software/WinAVR/bin/avrdude.exe",
+    "AVR.programmer.definitions": "/d/software/WinAVR/bin/avrdude.conf",
     "AVR.source.libraries": [
         "/c/Users/admin/Documents/Arduino/libraries",
         "/t/Programmes/Arduino/arduino-1.8.16/libraries"
